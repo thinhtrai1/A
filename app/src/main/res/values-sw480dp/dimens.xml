@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="dialog_progress_padding">25dp</dimen>
+    <dimen name="dialog_progress_text">20sp</dimen>
+</resources>

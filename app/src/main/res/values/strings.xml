@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">A</string>
+    <string name="err_network_available">Please check the network connection!</string>
+    <string name="err_unexpected_exception">Please try again!</string>
+    <string name="err_unexpected_exception_api">Connection fail. Please try again!</string>
+
+    <string name="txt_ok">OK</string>
+    <string name="txt_waiting">Waiting…</string>
+</resources>
