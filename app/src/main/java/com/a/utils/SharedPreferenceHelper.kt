@@ -4,12 +4,12 @@ import android.content.Context
 import android.content.SharedPreferences
 
 class SharedPreferenceHelper(mContext: Context) {
-    private val mSharedPreferences: SharedPreferences =
-        mContext.getSharedPreferences("APP2020", Context.MODE_PRIVATE)
 
     companion object {
         lateinit var getInstance: SharedPreferenceHelper
     }
+
+    private val mSharedPreferences: SharedPreferences = mContext.getSharedPreferences("A2020", Context.MODE_PRIVATE)
 
     operator fun set(key: String, value: String?) {
         mSharedPreferences.edit().putString(key, value).apply()

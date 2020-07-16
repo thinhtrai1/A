@@ -5,8 +5,8 @@ import com.a.api.HttpApi
 import com.a.api.models.BaseOutput
 import com.a.utils.Constants
 import com.a.utils.SharedPreferenceHelper
-import com.example.baseproject.api.ApiListener
-import com.example.baseproject.api.ApiException
+import com.a.api.ApiListener
+import com.a.api.ApiException
 import com.google.gson.Gson
 
 abstract class BaseTask<Output>(private val mListener: ApiListener<Output>?) :

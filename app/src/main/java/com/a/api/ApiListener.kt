@@ -1,4 +1,4 @@
-package com.example.baseproject.api
+package com.a.api
 
 import com.a.tasks.BaseTask
 

@@ -13,7 +13,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.a.R
-import com.example.baseproject.api.ApiException
+import com.a.api.ApiException
 import java.io.IOException
 
 abstract class BaseActivity : AppCompatActivity(){

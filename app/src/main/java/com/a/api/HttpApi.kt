@@ -2,7 +2,6 @@ package com.a.api
 
 import android.text.TextUtils
 import com.a.api.models.LoginOutput
-import com.example.baseproject.api.ApiException
 import com.a.utils.Constants
 import com.a.utils.SharedPreferenceHelper
 import com.example.baseproject.utils.StringUtils

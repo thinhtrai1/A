@@ -13,7 +13,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import com.a.R
-import com.example.baseproject.api.ApiException
+import com.a.api.ApiException
 import java.io.IOException
 
 abstract class BaseFragment : Fragment() {

@@ -2,7 +2,7 @@ package com.a.tasks
 
 import com.a.api.HttpApi
 import com.a.api.models.LoginOutput
-import com.example.baseproject.api.ApiListener
+import com.a.api.ApiListener
 
 class LoginTask(private val input: HashMap<String, String>, listener: ApiListener<Any>): BaseTask<Any>(listener) {
     override fun callApiMethod(): Any {
